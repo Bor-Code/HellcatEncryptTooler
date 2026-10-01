@@ -117,7 +117,7 @@ Bitcoin, SSL/TLS
 
 ---
 
-### 🔹 Wordlist (Sözlük)
+### Wordlist (Sözlük)
 
 > Her satırda bir şifre adayı olan metin dosyası
 
@@ -421,7 +421,7 @@ HashTool.exe
 
 <div align="center">
 
-##  Sık Sorulan Sorular
+## Sık Sorulan Sorular
 
 </div>
 
