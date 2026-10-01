@@ -12,7 +12,7 @@
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="100"/>
 
-[İndir](#-kurulum) • [Dokümantasyon](#-temel-kavramlar) • [Hızlı Başlangıç](#-kullanım) • [Yardım](#-sorun-giderme)
+[İndir](#kurulum) • [Dokümantasyon](#temel-kavramlar) • [Hızlı Başlangıç](#kullanım) • [Yardım](#sorun-giderme)
 
 </div>
 
@@ -58,10 +58,10 @@ Yasal Uyarı      → Etik kullanım kuralları
 
 **Kullanım Alanları:**
 ```
- Şifre Saklama    │ Veritabanlarında güvenli depolama
- Veri Doğrulama   │ Dosya bütünlüğü kontrolü
- Dijital İmza     │ Belge onaylama
- Deduplikasyon    │ Tekrar eden verileri bulma
+Şifre Saklama    │ Veritabanlarında güvenli depolama
+Veri Doğrulama   │ Dosya bütünlüğü kontrolü
+Dijital İmza     │ Belge onaylama
+Deduplikasyon    │ Tekrar eden verileri bulma
 ```
 
 ---
@@ -176,12 +176,12 @@ qwerty
 
 ### Hash Cracker
 ```
- MD5, SHA-1, SHA-256
- Wordlist Attack
- Brute Force (1-8 karakter)
- Gerçek zamanlı ilerleme
- Durdur/Devam
- Detaylı log
+MD5, SHA-1, SHA-256
+Wordlist Attack
+Brute Force (1-8 karakter)
+Gerçek zamanlı ilerleme
+Durdur/Devam
+Detaylı log
 ```
 
 </td>
@@ -323,18 +323,18 @@ python3 hashTool.py
 </div>
 
 <details>
-<summary><b> python: command not found</b></summary>
+<summary><b>python: command not found</b></summary>
 
 ```bash
 # Çözüm
-Windows: Python'u PATH'e ekle (kurulumda )
+Windows: Python'u PATH'e ekle (kurulumda)
 Linux:   sudo apt install python3
 macOS:   brew install python3
 ```
 </details>
 
 <details>
-<summary><b> ModuleNotFoundError: tkinter</b></summary>
+<summary><b>ModuleNotFoundError: tkinter</b></summary>
 
 ```bash
 # Ubuntu/Debian
@@ -349,7 +349,7 @@ brew install python-tk
 </details>
 
 <details>
-<summary><b> MemoryError / Program Donuyor</b></summary>
+<summary><b>MemoryError / Program Donuyor</b></summary>
 
 ```bash
 # Çözüm 1: Küçük wordlist kullan
@@ -360,7 +360,7 @@ head -n 100000 rockyou.txt > wordlist_small.txt
 </details>
 
 <details>
-<summary><b> Hash Bulunamadı</b></summary>
+<summary><b>Hash Bulunamadı</b></summary>
 
 ```bash
 # Kontrol 1: Hash uzunluğu doğru mu?
@@ -374,7 +374,7 @@ MD5=32, SHA1=40, SHA256=64
 </details>
 
 <details>
-<summary><b> UnicodeDecodeError</b></summary>
+<summary><b>UnicodeDecodeError</b></summary>
 
 ```bash
 # Linux
@@ -386,7 +386,7 @@ Notepad++ → Encoding → Convert to UTF-8
 </details>
 
 <details>
-<summary><b> EXE Çalışmıyor</b></summary>
+<summary><b>EXE Çalışmıyor</b></summary>
 
 ```bash
 # Antivirüs kontrolü
@@ -408,12 +408,12 @@ HashTool.exe
 
 | Uzunluk | Kombinasyon | MD5 Süresi* |
 |---------|-------------|-------------|
-| 3 karakter | 46K |  ~1 sn |
-| 4 karakter | 1.6M |  ~30 sn |
-| 5 karakter | 60M |  ~20 dk |
-| 6 karakter | 2.1B |  ~12 saat |
-| 7 karakter | 78B |  ~18 gün |
-| 8 karakter | 2.8T |  ~2 yıl |
+| 3 karakter | 46K | ~1 sn |
+| 4 karakter | 1.6M | ~30 sn |
+| 5 karakter | 60M | ~20 dk |
+| 6 karakter | 2.1B | ~12 saat |
+| 7 karakter | 78B | ~18 gün |
+| 8 karakter | 2.8T | ~2 yıl |
 
 <sub>*Ortalama laptop (i5, 2.5GHz) üzerinde tahmini süre</sub>
 
@@ -478,13 +478,13 @@ kullanmanız önerilir.
 ```
 
 **Yasal Sonuçlar:**
-- 🇹🇷 TCK Madde 243: Bilişim sistemine yetkisiz giriş → 2-4 yıl hapis
-- 🇺🇸 Computer Fraud and Abuse Act (CFAA)
-- 🇪🇺 GDPR ihlalleri
+- TCK Madde 243: Bilişim sistemine yetkisiz giriş → 2-4 yıl hapis
+- Computer Fraud and Abuse Act (CFAA)
+- GDPR ihlalleri
 
 <div align="center">
 
-** Etik ve Sorumlu Kullanım Dileğiyle!**
+**Etik ve Sorumlu Kullanım Dileğiyle!**
 
 </div>
 
@@ -507,7 +507,7 @@ git commit -m "Yeni özellik eklendi"
 git push origin yeni-ozellik
 ```
 
-### Yıldız Vermek Unutmayın! 
+### Yıldız Vermek Unutmayın!
 
 <img src="https://img.shields.io/github/stars/kullaniciadi/hashtool?style=social"/>
 
@@ -523,7 +523,7 @@ git push origin yeni-ozellik
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40"/> &nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Hashicorp_logo.svg" width="40"/>
 
-**Made with ❤️ for Cybersecurity Education**
+**Made with love for Cybersecurity Education**
 
 ---
 
