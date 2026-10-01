@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔐 HashTool v2.0
+# HashTool v2.0
 
 ### Profesyonel Hash Kırma ve Dönüştürme Aracı
 
@@ -12,32 +12,32 @@
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="100"/>
 
-[📥 İndir](#-kurulum) • [📖 Dokümantasyon](#-temel-kavramlar) • [🚀 Hızlı Başlangıç](#-kullanım) • [❓ Yardım](#-sorun-giderme)
+[İndir](#-kurulum) • [Dokümantasyon](#-temel-kavramlar) • [Hızlı Başlangıç](#-kullanım) • [Yardım](#-sorun-giderme)
 
 </div>
 
 ---
 
-## 📋 İçindekiler
+## İçindekiler
 
 ```
-📚 Temel Kavramlar → Hash, MD5, SHA, Wordlist, Brute Force
-⚙️ Özellikler       → Hash Cracker, Hash Converter
-💻 Kurulum          → Windows, Linux, macOS
-🎯 Kullanım         → Adım adım rehber
-🔧 Sorun Giderme    → Yaygın hatalar ve çözümler
-⚖️ Yasal Uyarı      → Etik kullanım kuralları
+Temel Kavramlar → Hash, MD5, SHA, Wordlist, Brute Force
+Özellikler       → Hash Cracker, Hash Converter
+Kurulum          → Windows, Linux, macOS
+Kullanım         → Adım adım rehber
+Sorun Giderme    → Yaygın hatalar ve çözümler
+Yasal Uyarı      → Etik kullanım kuralları
 ```
 
 ---
 
 <div align="center">
 
-## 🎓 Temel Kavramlar
+## Temel Kavramlar
 
 </div>
 
-### 🔹 Hash Nedir?
+### Hash Nedir?
 
 > Hash, veriyi **tek yönlü** matematiksel fonksiyonla sabit uzunlukta karakter dizisine dönüştürme işlemidir.
 
@@ -51,22 +51,22 @@
 
 | Özellik | Açıklama |
 |---------|----------|
-| ✅ **Deterministik** | Aynı girdi → Aynı hash |
-| ✅ **Hızlı** | Milisaniyeler içinde hesaplama |
-| ✅ **Sabit Uzunluk** | Her zaman aynı boyut |
-| ❌ **Tek Yönlü** | Hash'ten geri dönülemez |
+| **Deterministik** | Aynı girdi → Aynı hash |
+| **Hızlı** | Milisaniyeler içinde hesaplama |
+| **Sabit Uzunluk** | Her zaman aynı boyut |
+| **Tek Yönlü** | Hash'ten geri dönülemez |
 
 **Kullanım Alanları:**
 ```
-🔐 Şifre Saklama    │ Veritabanlarında güvenli depolama
-🔍 Veri Doğrulama   │ Dosya bütünlüğü kontrolü
-🎯 Dijital İmza     │ Belge onaylama
-💾 Deduplikasyon    │ Tekrar eden verileri bulma
+ Şifre Saklama    │ Veritabanlarında güvenli depolama
+ Veri Doğrulama   │ Dosya bütünlüğü kontrolü
+ Dijital İmza     │ Belge onaylama
+ Deduplikasyon    │ Tekrar eden verileri bulma
 ```
 
 ---
 
-### 🔹 Hash Türleri
+### Hash Türleri
 
 <table>
 <tr>
@@ -74,10 +74,10 @@
 
 #### MD5
 ```
-📏 128 bit (32 hex)
-⚡ Çok hızlı
-⚠️ Artık güvenli değil
-✅ Test için uygun
+128 bit (32 hex)
+Çok hızlı
+Artık güvenli değil
+Test için uygun
 ```
 
 </td>
@@ -85,10 +85,10 @@
 
 #### SHA-1
 ```
-📏 160 bit (40 hex)
-⚡ Hızlı
-⚠️ 2017'de kırıldı
-✅ Git'te kullanılıyor
+160 bit (40 hex)
+Hızlı
+2017'de kırıldı
+Git'te kullanılıyor
 ```
 
 </td>
@@ -96,10 +96,10 @@
 
 #### SHA-256
 ```
-📏 256 bit (64 hex)
-🔒 Güvenli
-✅ Bitcoin, SSL/TLS
-✅ Önerilen algoritma
+256 bit (64 hex)
+Güvenli
+Bitcoin, SSL/TLS
+Önerilen algoritma
 ```
 
 </td>
@@ -132,17 +132,17 @@ qwerty
 
 | Wordlist | Boyut | Kullanım |
 |----------|-------|----------|
-| 🟢 **Küçük** | 10K-100K | Hızlı testler |
-| 🟡 **Orta** | 100K-1M | Genel amaçlı |
-| 🔴 **RockYou** | 14M+ | Kapsamlı kırma |
+| **Küçük** | 10K-100K | Hızlı testler |
+| **Orta** | 100K-1M | Genel amaçlı |
+| **RockYou** | 14M+ | Kapsamlı kırma |
 
 **Popüler Kaynaklar:**
-- 🔗 [SecLists](https://github.com/danielmiessler/SecLists)
-- 🔗 [RockYou.txt](https://github.com/brannondorsey/naive-hashcat/releases)
+- [SecLists](https://github.com/danielmiessler/SecLists)
+- [RockYou.txt](https://github.com/brannondorsey/naive-hashcat/releases)
 
 ---
 
-### 🔹 Brute Force (Kaba Kuvvet)
+### Brute Force (Kaba Kuvvet)
 
 > Tüm olası kombinasyonları sistematik olarak deneme
 
@@ -158,7 +158,7 @@ qwerty
 
 <div align="center">
 
-⚠️ **7+ karakter için saatler/günler sürer!**
+**7+ karakter için saatler/günler sürer!**
 
 </div>
 
@@ -166,7 +166,7 @@ qwerty
 
 <div align="center">
 
-## ⚙️ Özellikler
+## Özellikler
 
 </div>
 
@@ -174,27 +174,27 @@ qwerty
 <tr>
 <td width="50%">
 
-### 🔓 Hash Cracker
+### Hash Cracker
 ```
-✅ MD5, SHA-1, SHA-256
-✅ Wordlist Attack
-✅ Brute Force (1-8 karakter)
-✅ Gerçek zamanlı ilerleme
-✅ Durdur/Devam
-✅ Detaylı log
+ MD5, SHA-1, SHA-256
+ Wordlist Attack
+ Brute Force (1-8 karakter)
+ Gerçek zamanlı ilerleme
+ Durdur/Devam
+ Detaylı log
 ```
 
 </td>
 <td width="50%">
 
-### 🔄 Hash Converter
+### Hash Converter
 ```
-✅ MD5, SHA-1, SHA-256
-✅ SHA-224, SHA-384, SHA-512
-✅ SHA3-256, SHA3-512
-✅ BLAKE2b, BLAKE2s
-✅ Tek tıkla tüm formatlar
-✅ Kopyalama özelliği
+MD5, SHA-1, SHA-256
+SHA-224, SHA-384, SHA-512
+SHA3-256, SHA3-512
+BLAKE2b, BLAKE2s
+Tek tıkla tüm formatlar
+Kopyalama özelliği
 ```
 
 </td>
@@ -205,7 +205,7 @@ qwerty
 
 <div align="center">
 
-## 💻 Kurulum
+## Kurulum
 
 </div>
 
@@ -213,7 +213,7 @@ qwerty
 
 ```batch
 # 1. Python Kurulumu
-https://python.org/downloads → İndir → "Add Python to PATH" ✅
+https://python.org/downloads → İndir → "Add Python to PATH"
 
 # 2. Proje İndirme
 git clone https://github.com/kullaniciadi/hashtool.git
@@ -267,42 +267,42 @@ python3 hashTool.py
 
 <div align="center">
 
-## 🎯 Kullanım
+## Kullanım
 
 </div>
 
-### 📖 Wordlist Attack
+### Wordlist Attack
 
 ```diff
 1. Hash gir:    5f4dcc3b5aa765d61d8327deb882cf99
 2. Hash türü:   MD5
-3. Yöntem:      ✅ Wordlist
+3. Yöntem:      Wordlist
 4. Dosya seç:   wordlist.txt
 5. BAŞLAT!
 
-+ ✅ BAŞARILI! Şifre: password
-+ ⏱️  Süre: 0.03 saniye
++ BAŞARILI! Şifre: password
++ Süre: 0.03 saniye
 ```
 
 ---
 
-### 💪 Brute Force Attack
+### Brute Force Attack
 
 ```diff
 1. Hash gir:    098f6bcd4621d373cade4e832627b4f6
 2. Hash türü:   MD5
-3. Yöntem:      ✅ Brute Force
+3. Yöntem:      Brute Force
 4. Max uzunluk: 4
 5. BAŞLAT!
 
-+ 🔍 1,679,616 kombinasyon denendi
-+ ✅ BAŞARILI! Şifre: test
-+ ⏱️  Süre: 45.23 saniye
++ 1,679,616 kombinasyon denendi
++ BAŞARILI! Şifre: test
++ Süre: 45.23 saniye
 ```
 
 ---
 
-### 🔄 Hash Converter
+### Hash Converter
 
 ```diff
 1. Metin yaz:   BenimŞifrem123
@@ -318,23 +318,23 @@ python3 hashTool.py
 
 <div align="center">
 
-## 🔧 Sorun Giderme
+## Sorun Giderme
 
 </div>
 
 <details>
-<summary><b>❌ python: command not found</b></summary>
+<summary><b> python: command not found</b></summary>
 
 ```bash
 # Çözüm
-Windows: Python'u PATH'e ekle (kurulumda ✅)
+Windows: Python'u PATH'e ekle (kurulumda )
 Linux:   sudo apt install python3
 macOS:   brew install python3
 ```
 </details>
 
 <details>
-<summary><b>❌ ModuleNotFoundError: tkinter</b></summary>
+<summary><b> ModuleNotFoundError: tkinter</b></summary>
 
 ```bash
 # Ubuntu/Debian
@@ -349,7 +349,7 @@ brew install python-tk
 </details>
 
 <details>
-<summary><b>❌ MemoryError / Program Donuyor</b></summary>
+<summary><b> MemoryError / Program Donuyor</b></summary>
 
 ```bash
 # Çözüm 1: Küçük wordlist kullan
@@ -360,7 +360,7 @@ head -n 100000 rockyou.txt > wordlist_small.txt
 </details>
 
 <details>
-<summary><b>❌ Hash Bulunamadı</b></summary>
+<summary><b> Hash Bulunamadı</b></summary>
 
 ```bash
 # Kontrol 1: Hash uzunluğu doğru mu?
@@ -374,7 +374,7 @@ MD5=32, SHA1=40, SHA256=64
 </details>
 
 <details>
-<summary><b>❌ UnicodeDecodeError</b></summary>
+<summary><b> UnicodeDecodeError</b></summary>
 
 ```bash
 # Linux
@@ -386,7 +386,7 @@ Notepad++ → Encoding → Convert to UTF-8
 </details>
 
 <details>
-<summary><b>❌ EXE Çalışmıyor</b></summary>
+<summary><b> EXE Çalışmıyor</b></summary>
 
 ```bash
 # Antivirüs kontrolü
@@ -402,18 +402,18 @@ HashTool.exe
 
 <div align="center">
 
-## 📊 Performans Tablosu
+## Performans Tablosu
 
 </div>
 
 | Uzunluk | Kombinasyon | MD5 Süresi* |
 |---------|-------------|-------------|
-| 3 karakter | 46K | 🟢 ~1 sn |
-| 4 karakter | 1.6M | 🟢 ~30 sn |
-| 5 karakter | 60M | 🟡 ~20 dk |
-| 6 karakter | 2.1B | 🟡 ~12 saat |
-| 7 karakter | 78B | 🔴 ~18 gün |
-| 8 karakter | 2.8T | 🔴 ~2 yıl |
+| 3 karakter | 46K |  ~1 sn |
+| 4 karakter | 1.6M |  ~30 sn |
+| 5 karakter | 60M |  ~20 dk |
+| 6 karakter | 2.1B |  ~12 saat |
+| 7 karakter | 78B |  ~18 gün |
+| 8 karakter | 2.8T |  ~2 yıl |
 
 <sub>*Ortalama laptop (i5, 2.5GHz) üzerinde tahmini süre</sub>
 
@@ -421,15 +421,15 @@ HashTool.exe
 
 <div align="center">
 
-## ❓ Sık Sorulan Sorular
+##  Sık Sorulan Sorular
 
 </div>
 
 <details>
 <summary><b>Program yasal mı?</b></summary>
 
-✅ Kendi şifreleriniz için → Yasal
-❌ Başkalarının şifreleri için → Yasadışı
+Kendi şifreleriniz için → Yasal
+Başkalarının şifreleri için → Yasadışı
 
 Sadece **eğitim** ve **yetkili test** amaçlı kullanın!
 </details>
@@ -437,13 +437,13 @@ Sadece **eğitim** ve **yetkili test** amaçlı kullanın!
 <details>
 <summary><b>Salt'lı hash kırılabilir mi?</b></summary>
 
-❌ Hayır, salt eklenen hash'ler wordlist/rainbow table saldırılarına dayanıklıdır.
+Hayır, salt eklenen hash'ler wordlist/rainbow table saldırılarına dayanıklıdır.
 </details>
 
 <details>
 <summary><b>GPU desteği var mı?</b></summary>
 
-❌ Bu araç CPU tabanlıdır. GPU için:
+Bu araç CPU tabanlıdır. GPU için:
 - Hashcat (100x daha hızlı)
 - John the Ripper
 kullanmanız önerilir.
@@ -454,27 +454,27 @@ kullanmanız önerilir.
 
 14 milyon gerçek kullanıcı şifresini içeren en kapsamlı wordlist.
 
-📥 İndirme: [GitHub](https://github.com/brannondorsey/naive-hashcat/releases)
+İndirme: [GitHub](https://github.com/brannondorsey/naive-hashcat/releases)
 </details>
 
 ---
 
 <div align="center">
 
-## ⚖️ Yasal Uyarı
+## Yasal Uyarı
 
 </div>
 
 ```diff
 ! BU ARAÇ YALNIZCA EĞİTİM AMAÇLIDIR
 
-+ ✅ Kendi şifrelerinizi test edin
-+ ✅ Eğitim ortamlarında kullanın
-+ ✅ İzinli penetrasyon testlerinde kullanın
++ Kendi şifrelerinizi test edin
++ Eğitim ortamlarında kullanın
++ İzinli penetrasyon testlerinde kullanın
 
-- ❌ Başkalarının şifrelerini kırmayın
-- ❌ Yetkisiz erişim sağlamayın
-- ❌ Kötü amaçlı kullanmayın
+- Başkalarının şifrelerini kırmayın
+- Yetkisiz erişim sağlamayın
+- Kötü amaçlı kullanmayın
 ```
 
 **Yasal Sonuçlar:**
@@ -484,7 +484,7 @@ kullanmanız önerilir.
 
 <div align="center">
 
-**🔐 Etik ve Sorumlu Kullanım Dileğiyle!**
+** Etik ve Sorumlu Kullanım Dileğiyle!**
 
 </div>
 
@@ -492,7 +492,7 @@ kullanmanız önerilir.
 
 <div align="center">
 
-## 📞 İletişim ve Destek
+## İletişim ve Destek
 
 [![GitHub Issues](https://img.shields.io/badge/Issues-Report%20Bug-red.svg)](https://github.com/kullaniciadi/hashtool/issues)
 [![GitHub PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/kullaniciadi/hashtool/pulls)
@@ -507,7 +507,7 @@ git commit -m "Yeni özellik eklendi"
 git push origin yeni-ozellik
 ```
 
-### Yıldız Vermek Unutmayın! ⭐
+### Yıldız Vermek Unutmayın! 
 
 <img src="https://img.shields.io/github/stars/kullaniciadi/hashtool?style=social"/>
 
@@ -517,7 +517,7 @@ git push origin yeni-ozellik
 
 <div align="center">
 
-### 🛠️ Geliştirilen Teknolojiler
+### Geliştirilen Teknolojiler
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/> &nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40"/> &nbsp;
@@ -527,6 +527,6 @@ git push origin yeni-ozellik
 
 ---
 
-📄 **Lisans:** MIT &nbsp; | &nbsp; 📅 **2025** &nbsp; | &nbsp; 🔐 **v2.0**
+**Lisans:** MIT &nbsp; | &nbsp; **2025** &nbsp; | &nbsp; **v2.0**
 
 </div>
